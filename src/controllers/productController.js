@@ -43,7 +43,7 @@ exports.getUsingId = (req, res) => {
 //getByName
 exports.getUsingName = (req, res) => {
   const product = inventory.find((p) => {
-    return p.name === parseInt(req.params.name);
+    return p.name === req.params.name;
   });
   if (!product) {
     return res.status(404).send("Product not found");
