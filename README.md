@@ -8,3 +8,4 @@ This is an inventory management progect created using node.js
 - DO ALL THE QUERIES THERE
 
 # QUERY FILTER ENABLED USING "CATEGORY"
+# SEARCH ENABLED USING ID AND NAME
